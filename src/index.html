@@ -11,7 +11,7 @@
     <!-- component -->
     <section>
         <div class="flex">
-            <!-- Sidebar -->
+            <!-- Side Bar -->
             <div id="Main"
                 class="xl:rounded-r transform  xl:translate-x-0  ease-in-out transition duration-500 flex justify-start items-start min-h-screen w-screen sm:w-64 bg-gray-100 flex-col">
                 <div class="flex justify-start p-6 items-center space-x-3">
@@ -563,7 +563,7 @@
                                                 class="avatar avatar-circle avatar-md"><img class="avatar-img avatar-circle"
                                                     src="/img/avatars/thumb-1.jpg" loading="lazy"></span>
                                             <div>
-                                                <div class="font-bold text-gray-900 dark:text-gray-100">Carolyn Perkins
+                                                <div class="font-bold text-gray-900 ">Carolyn Perkins
                                                 </div>
                                                 <div class="text-xs">carolyn.p@elstar.com</div>
                                             </div>
@@ -619,7 +619,143 @@
                     </div>
                 </header>
                 <!-- Content -->
-                
+                <div class="h-full flex flex-auto flex-col justify-between">
+                    <div class="h-full">
+                        <!-- page-container  -->
+                        <div class="relative h-full flex flex-auto flex-col px-4 sm:px-6 py-4 sm:py-6 md:px-8">
+                            <div class="flex flex-col gap-4 h-full">
+                                <div class="flex items-center justify-between mb-4 gap-3">
+                                    <!-- Sales Overview Title -->
+                                    <div class="mb-4 lg:mb-0">
+                                        <h3 class="text-2xl font-semibold">Sales Overview</h3>
+                                        <p>View your current sales &amp; summary</p>
+                                    </div>
+                                    <!-- Input Date -->
+                                    <div class="flex flex-row gap-3">
+                                        <span class="relative flex w-full undefined">
+                                            <input
+                                                class="w-full appearance-none border-2 border-gray-400  rounded-md transition duration-700 px-3 py-2 h-9"
+                                                type="text" readonly="" autocomplete="off"
+                                                value="Invalid Date ~ Invalid Date"
+                                                style="border: 1px solid rgb(204, 203, 203); border-radius: 0.25rem;padding-right: 2.25rem;">
+                                            <!-- Cross symbol -->
+                                            <div class="right-3 absolute top-1/2 flex -translate-y-1/2">
+                                                <span class="close-btn text-base" role="button">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                        viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                                            clip-rule="evenodd">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </span>
+                                        <!-- Date Filter -->
+                                        <button
+                                            class="button bg-white border border-gray-300 hover:bg-gray-50  active:bg-gray-100   text-gray-600  radius-round h-9 px-3 py-2 text-sm">
+                                            <span class="flex items-center justify-center">
+                                                <span class="text-lg">
+                                                    <svg stroke="currentColor" fill="none" stroke-width="2"
+                                                        viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z">
+                                                        </path>
+                                                    </svg>
+                                                </span>
+                                                <span class="ltr:ml-1 rtl:mr-1">Filter</span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Card -->
+                                <div class="grid grid-cols-3 gap-4">
+                                    <div class="border rounded-lg border-gray-400" role="presentation">
+                                        <div class="p-5">
+                                            <h6 class="font-semibold mb-4 text-sm">Revenue</h6>
+                                            <div class="flex justify-between items-center">
+                                                <div>
+                                                    <h3 class="font-bold"><span>$21,827.13</span></h3>
+                                                    <p>vs. 3 months prior to <span class="font-semibold">20 Jan</span>
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="inline-flex items-center whitespace-nowrap py-1 px-2 text-xs gap-1 font-bold border-0 text-emerald-600 bg-emerald-100 rounded-full">
+                                                    <span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                            viewBox="0 0 20 20" aria-hidden="true" height="1em"
+                                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd"
+                                                                d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>11.4%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border rounded-lg border-gray-400" role="presentation">
+                                        <div class="p-5">
+                                            <h6 class="font-semibold mb-4 text-sm">Revenue</h6>
+                                            <div class="flex justify-between items-center">
+                                                <div>
+                                                    <h3 class="font-bold"><span>$21,827.13</span></h3>
+                                                    <p>vs. 3 months prior to <span class="font-semibold">20 Jan</span>
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="inline-flex items-center whitespace-nowrap py-1 px-2 text-xs gap-1 font-bold border-0 text-red-600  bg-red-100 rounded-full">
+                                                    <span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                            viewBox="0 0 20 20" aria-hidden="true" height="1em"
+                                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd"
+                                                                d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>11.4%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border rounded-lg border-gray-400" role="presentation">
+                                        <div class="p-5">
+                                            <h6 class="font-semibold mb-4 text-lg">Revenue</h6>
+                                            <div class="flex justify-between items-center">
+                                                <div>
+                                                    <h3 class="text-xl font-bold"><span>$21,827.13</span></h3>
+                                                    <p>vs. 3 months prior to <span class="font-semibold">20 Jan</span>
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="inline-flex items-center whitespace-nowrap py-1 px-2 text-xs gap-1 font-bold border-0 text-emerald-600 bg-emerald-100 rounded-full">
+                                                    <span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                            viewBox="0 0 20 20" aria-hidden="true" height="1em"
+                                                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd"
+                                                                d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"
+                                                                clip-rule="evenodd">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>11.4%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
