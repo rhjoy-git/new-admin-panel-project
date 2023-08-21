@@ -495,7 +495,7 @@
             <div
                 class="flex flex-col flex-auto min-h-screen min-w-0 relative w-full bg-white  border-l border-gray-200 ">
                 <!-- Header -->
-                <header class="sticky top-0 z-30 flex w-full">
+                <header class="top-0 z-30 flex w-full">
                     <div
                         class="relative flex w-full items-center justify-between p-0 px-4 h-16 border-b border-gray-200">
                         <div class="flex items-center header-action-start">
@@ -544,9 +544,9 @@
                             </div>
                             <!-- User -->
                             <div class="relative inline-block">
-                                <div class="" id="">
+                                <div class="px-6 py-4" id="">
                                     <div class="mx-1 cursor-pointer p-1 flex items-center gap-2">
-                                        <span class=""
+                                        <span class="px-6 py-4"
                                             style="width: 32px; height: 32px; min-width: 32px; line-height: 32px; font-size: 12px;">
                                             <img class="rounded" src="/src/img/avatars/thumb-1.jpg" loading="lazy">
                                         </span>
@@ -748,6 +748,211 @@
                                                     </span>
                                                     <span>11.4%</span>
                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="grid grid-cols-3 gap-4">
+                                    <div class=" col-span-2 border border-gray-400 rounded-md" role="presentation">
+                                        <div class="p-5">
+                                            <div class="flex items-center justify-between mb-6">
+                                                <h4 class="text-2xl font-bold">Latest Orders</h4><button
+                                                    class="button bg-white border rounded border-gray-300  hover:bg-gray-50 active:bg-gray-100 -500 text-gray-600  radius-round h-9 px-3 py-2 text-sm">View
+                                                    Orders</button>
+                                            </div>
+                                            <div class="overflow-x-auto">
+                                                <table
+                                                    class="min-w-full table-auto indent-0 border-collapse border-inherit text-left">
+                                                    <thead class="px-6 py-4">
+                                                        <tr class="px-6 py-4 border-b bg-gray-100">
+                                                            <th class="px-6 py-4" colspan="1">Order</th>
+                                                            <th class="px-6 py-4" colspan="1">Status</th>
+                                                            <th class="px-6 py-4" colspan="1">Date</th>
+                                                            <th class="px-6 py-4" colspan="1">Customer</th>
+                                                            <th class="px-6 py-4" colspan="1">Profile Progress</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="px-6 py-4">
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4"><span
+                                                                    class="cursor-pointer select-none font-semibold hover:text-indigo-600">#95954</span>
+                                                            </td>
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center"><span
+                                                                        class="badge-dot bg-emerald-500"></span><span
+                                                                        class="ml-2 rtl:mr-2 capitalize font-semibold text-emerald-500">Paid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="px-6 py-4"><span>10/08/2022</span></td>
+                                                            <td class="px-6 py-4">Ron Vargas</td>
+                                                            <td class="px-6 py-4"><span>$168.00</span></td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4"><span
+                                                                    class="cursor-pointer select-none font-semibold hover:text-indigo-600">#95423</span>
+                                                            </td>
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center"><span
+                                                                        class="badge-dot bg-emerald-500"></span><span
+                                                                        class="ml-2 rtl:mr-2 capitalize font-semibold text-emerald-500">Paid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="px-6 py-4"><span>30/07/2022</span></td>
+                                                            <td class="px-6 py-4">Carolyn Hanso</td>
+                                                            <td class="px-6 py-4"><span>$523.00</span></td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4"><span
+                                                                    class="cursor-pointer select-none font-semibold hover:text-indigo-600">#92903</span>
+                                                            </td>
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center"><span
+                                                                        class="badge-dot bg-amber-500"></span><span
+                                                                        class="ml-2 rtl:mr-2 capitalize font-semibold text-amber-500">Pending</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="px-6 py-4"><span>18/07/2022</span></td>
+                                                            <td class="px-6 py-4">Gabriella May</td>
+                                                            <td class="px-6 py-4"><span>$81.00</span></td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4"><span
+                                                                    class="cursor-pointer select-none font-semibold hover:text-indigo-600">#92627</span>
+                                                            </td>
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center"><span
+                                                                        class="badge-dot bg-red-500"></span><span
+                                                                        class="ml-2 rtl:mr-2 capitalize font-semibold text-red-500">Failed</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="px-6 py-4"><span>09/07/2022</span></td>
+                                                            <td class="px-6 py-4">Tara Fletcher</td>
+                                                            <td class="px-6 py-4"><span>$279.00</span></td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4"><span
+                                                                    class="cursor-pointer select-none font-semibold hover:text-indigo-600">#89332</span>
+                                                            </td>
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center"><span
+                                                                        class="badge-dot bg-emerald-500"></span><span
+                                                                        class="ml-2 rtl:mr-2 capitalize font-semibold text-emerald-500">Paid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="px-6 py-4"><span>02/06/2022</span></td>
+                                                            <td class="px-6 py-4">Eileen Horton</td>
+                                                            <td class="px-6 py-4"><span>$597.00</span></td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4"><span
+                                                                    class="cursor-pointer select-none font-semibold hover:text-indigo-600">#86497</span>
+                                                            </td>
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center"><span
+                                                                        class="badge-dot bg-red-500"></span><span
+                                                                        class="ml-2 rtl:mr-2 capitalize font-semibold text-red-500">Failed</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="px-6 py-4"><span>19/03/2022</span></td>
+                                                            <td class="px-6 py-4">Lloyd Obrien</td>
+                                                            <td class="px-6 py-4"><span>$189.00</span></td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4"><span
+                                                                    class="cursor-pointer select-none font-semibold hover:text-indigo-600">#86212</span>
+                                                            </td>
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center"><span
+                                                                        class="badge-dot bg-emerald-500"></span><span
+                                                                        class="ml-2 rtl:mr-2 capitalize font-semibold text-emerald-500">Paid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="px-6 py-4"><span>09/03/2022</span></td>
+                                                            <td class="px-6 py-4">Tara Fletcher</td>
+                                                            <td class="px-6 py-4"><span>$672.00</span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" border border-gray-400 rounded-md" role="presentation">
+                                        <div class="p-5">
+                                            <div class="flex items-center justify-between mb-4">
+                                                <h4>Top Selling</h4><button
+                                                    class="button bg-white border rounded-md border-gray-300  hover:bg-gray-50 active:bg-gray-100  text-gray-600  radius-round h-9 px-3 py-2 text-sm">View
+                                                    Products</button>
+                                            </div>
+                                            <div class="overflow-x-auto">
+                                                <table
+                                                    class="min-w-full table-auto indent-0 border-collapse border-inherit text-left">
+                                                    <thead class="px-6 py-4 text-left">
+                                                        <tr class="px-6 py-4 border-b bg-gray-100">
+                                                            <th class="px-6 py-4" colspan="1">Product</th>
+                                                            <th class="px-6 py-4" colspan="1">Sold</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="px-6 py-4">
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center gap-2"><span
+                                                                    style="width: 32px; height: 32px; min-width: 32px; line-height: 32px; font-size: 12px;"><img
+                                                                            class="avatar-img avatar-rounded"
+                                                                            src="/src/img/avatars/thumb-1.jpg"
+                                                                            loading="lazy"></span><span
+                                                                        class="font-semibold">Luminaire Giotto
+                                                                        Headphones</span></div>
+                                                            </td>
+                                                            <td class="px-6 py-4">252</td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center gap-2"><span
+                                                                    style="width: 32px; height: 32px; min-width: 32px; line-height: 32px; font-size: 12px;"><img
+                                                                            class="avatar-img avatar-rounded"
+                                                                            src="/src/img/avatars/thumb-1.jpg"
+                                                                            loading="lazy"></span><span
+                                                                        class="font-semibold">Black Sneaker</span></div>
+                                                            </td>
+                                                            <td class="px-6 py-4">186</td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center gap-2"><span
+                                                                    style="width: 32px; height: 32px; min-width: 32px; line-height: 32px; font-size: 12px;"><img
+                                                                            class="avatar-img avatar-rounded"
+                                                                            src="/src/img/avatars/thumb-1.jpg"
+                                                                            loading="lazy"></span><span
+                                                                        class="font-semibold">Gray Hoodies</span></div>
+                                                            </td>
+                                                            <td class="px-6 py-4">166</td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center gap-2"><span
+                                                                    style="width: 32px; height: 32px; min-width: 32px; line-height: 32px; font-size: 12px;"><img
+                                                                            class="avatar-img avatar-rounded"
+                                                                            src="/src/img/avatars/thumb-1.jpg"
+                                                                            loading="lazy"></span><span
+                                                                        class="font-semibold">Blue Backpack</span></div>
+                                                            </td>
+                                                            <td class="px-6 py-4">93</td>
+                                                        </tr>
+                                                        <tr class="px-6 py-4 border-b hover:bg-gray-100">
+                                                            <td class="px-6 py-4">
+                                                                <div class="flex items-center gap-2"><span
+                                                                    style="width: 32px; height: 32px; min-width: 32px; line-height: 32px; font-size: 12px;"><img
+                                                                            class="avatar-img avatar-rounded"
+                                                                            src="/src/img/avatars/thumb-1.jpg"
+                                                                            loading="lazy"></span><span
+                                                                        class="font-semibold">Strip Analog Watch</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="px-6 py-4">81</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>
